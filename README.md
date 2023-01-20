@@ -14,6 +14,14 @@ This is a learning project to  ***Slim Framework*** and ***Smarty templates Fram
 
 ### 1. Hello world
 
+* ***Goal***: First coding test, Web and API *"Hello world"* deploy.
+* ***Branch assigned***: [https://github.com/epsomsegura/smarty-slimframework_training/tree/Activities/HelloWorld](https://github.com/epsomsegura/smarty-slimframework_training/tree/Activities/HelloWorld)
+
+### 2. Activity 1 - Basic syntaxis
+
+* ***Goal***: Understand basic syntaxis including comments, variables, functions, attributes, embedding vars, math and scapping smarty parsing.
+* ***Branch assigned***: [https://github.com/epsomsegura/smarty-slimframework_training/tree/Activities/Activity-1_BasicSyntaxis](https://github.com/epsomsegura/smarty-slimframework_training/tree/Activities/Activity-1_BasicSyntaxis)
+
 ## References
 * [Slim Framework Documentation](https://www.slimframework.com/docs/v4/)
 * [Smarty V3 Documentation](https://www.smarty.net/docs/en/)
