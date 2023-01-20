@@ -16,8 +16,7 @@ class SmartyTemplates extends Smarty
         $this->setCompileDir(__DIR__.'/../views/templates_c/');
         $this->setConfigDir(__DIR__.'/../views/configs/');
         $this->setCacheDir(__DIR__.'/../views/cache/');
-
-        $this->caching = Smarty::CACHING_LIFETIME_CURRENT;
+        // $this->caching = Smarty::CACHING_LIFETIME_CURRENT;
     }
 }
 

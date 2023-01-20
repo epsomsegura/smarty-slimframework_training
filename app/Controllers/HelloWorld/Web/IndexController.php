@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Controllers\ActivityOne\Web;
+namespace App\Controllers\HelloWorld\Web;
 
 use Config\SmartyTemplates;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 
-class ActivityOneController{
+class IndexController{
 
     public $smarty;
 
@@ -18,10 +18,7 @@ class ActivityOneController{
     public function __invoke(Request $request, Response $response, array $args)
     {
         $response->getBody()->write("");
-        if(array_key_exists('name',$args)){
-            $this->smarty->assign('name',$args['name']);
-        }
-        $this->smarty->display('activity-one/index.tpl');
+        $this->smarty->display('index.tpl');
         return $response;
     }
 
