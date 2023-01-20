@@ -1,11 +1,20 @@
 {
+    "authors": [
+        {
+            "name": "Epsom Segura",
+            "email": "segurajaramilloepsom@gmail.com",
+            "homepage": "https://linkedind/epsomsegura"
+        }
+    ],
     "require": {
         "slim/slim": "4.*",
         "slim/psr7": "^1.6",
-        "nyholm/psr7": "^1.5",
-        "nyholm/psr7-server": "^1.0",
-        "guzzlehttp/psr7": "^2",
-        "laminas/laminas-diactoros": "^2.24",
         "smarty/smarty": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Config\\": "config/"
+        }
     }
 }
